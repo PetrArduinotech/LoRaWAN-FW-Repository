@@ -11,5 +11,9 @@ End point Indoor UNI je univerzálním senzorem pro použití indoor a obsahuje tent
 FW má nìkolik modifikací:
 1. DTH - mìøí pouze teplotu a vlhkost a sleduje stav napájení USB/baterie
 2. S0counter - èítaè impulsù
-3. Contact - možno použít pro sledování stavu kontaktu nebo jako otøesové èidlo
+3. UNIContact - možno použít pro sledování stavu kontaktu nebo jako otøesové èidlo, detekuje pøítomnost napìtí z adaptéru na USB. Posílá v payloadu rovnìž teplotu a napìtí. Tento FW je nejkomplexnìjším FW pro INdoor UNI a využívá všechny jeho dostupné HW prostøedky
+
+
+V pøípravì:
+FW pro analogové mìøení na USB portu - možno využít nejen ro detekci pøítomnosti/nepøítomnosti napájení ale také pro zmìøení napìtí v rozmezích 0 až 3V. 
 
